@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
+	"\/about.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css-min\/styles.min.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -19,6 +28,22 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/_semantic.scss",
+		"outputAbbreviatedPath": "\/css-min\/styles.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/css\/_weather.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/_weather.scss",
 		"outputAbbreviatedPath": "\/css-min\/styles.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -88,6 +113,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html\/about.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/about.kit",
+		"outputAbbreviatedPath": "\/about.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -106,7 +140,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/android-chrome-144x144.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/android-chrome-192x192.png": {
 		"fileType": 32768,
@@ -117,7 +151,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/android-chrome-192x192.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/android-chrome-36x36.png": {
 		"fileType": 32768,
@@ -128,7 +162,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/android-chrome-36x36.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/android-chrome-48x48.png": {
 		"fileType": 32768,
@@ -139,7 +173,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/android-chrome-48x48.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/android-chrome-72x72.png": {
 		"fileType": 32768,
@@ -150,7 +184,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/android-chrome-72x72.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/android-chrome-96x96.png": {
 		"fileType": 32768,
@@ -161,7 +195,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/android-chrome-96x96.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/apple-touch-icon-114x114.png": {
 		"fileType": 32768,
@@ -172,7 +206,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-114x114.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/apple-touch-icon-120x120.png": {
 		"fileType": 32768,
@@ -183,7 +217,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-120x120.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/apple-touch-icon-144x144.png": {
 		"fileType": 32768,
@@ -194,7 +228,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-144x144.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/apple-touch-icon-152x152.png": {
 		"fileType": 32768,
@@ -205,7 +239,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-152x152.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/apple-touch-icon-180x180.png": {
 		"fileType": 32768,
@@ -216,7 +250,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-180x180.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/apple-touch-icon-57x57.png": {
 		"fileType": 32768,
@@ -227,7 +261,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-57x57.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/apple-touch-icon-60x60.png": {
 		"fileType": 32768,
@@ -238,7 +272,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-60x60.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/apple-touch-icon-72x72.png": {
 		"fileType": 32768,
@@ -249,7 +283,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-72x72.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/apple-touch-icon-76x76.png": {
 		"fileType": 32768,
@@ -260,7 +294,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-76x76.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
@@ -271,7 +305,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/apple-touch-icon.png": {
 		"fileType": 32768,
@@ -282,7 +316,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/favicon-16x16.png": {
 		"fileType": 32768,
@@ -293,7 +327,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/favicon-16x16.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/favicon-32x32.png": {
 		"fileType": 32768,
@@ -304,7 +338,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/favicon-32x32.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/favicon-96x96.png": {
 		"fileType": 32768,
@@ -315,7 +349,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/favicon-96x96.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/manifest.json": {
 		"fileType": 524288,
@@ -337,7 +371,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/mstile-144x144.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/mstile-150x150.png": {
 		"fileType": 32768,
@@ -348,7 +382,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/mstile-150x150.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/mstile-310x150.png": {
 		"fileType": 32768,
@@ -359,7 +393,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/mstile-310x150.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/mstile-310x310.png": {
 		"fileType": 32768,
@@ -370,7 +404,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/mstile-310x310.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon\/mstile-70x70.png": {
 		"fileType": 32768,
@@ -381,7 +415,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon\/mstile-70x70.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/splash-screen\/ipad-splash-screen.png": {
 		"fileType": 32768,
@@ -392,7 +426,7 @@
 		"outputAbbreviatedPath": "\/img\/splash-screen\/ipad-splash-screen.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/splash-screen\/iphone-splash-screen.png": {
 		"fileType": 32768,
@@ -403,7 +437,7 @@
 		"outputAbbreviatedPath": "\/img\/splash-screen\/iphone-splash-screen.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,

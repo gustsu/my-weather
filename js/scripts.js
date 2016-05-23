@@ -10,5 +10,33 @@
 // Third, load any plugins (optional)
 // @codekit-prepend "plugins.js";
 
-// My Scripts
-//welcome
+
+//tabs activiate 
+$('.menu .item')
+  .tab()
+;
+
+
+//Get Cheney Weather
+
+$.simpleWeather({
+    location: '99004',
+    woeid: '',
+    unit: 'f',
+    success: function(weather) {
+      
+      // Display Data
+      $('#cheney .city').text(weather.city);
+      $('#cheney .temp').text(weather.temp);
+      $("#cheney i").addClass("icon-" + weather.code);
+        
+      // Entire weather object
+      console.log(weather);
+    },
+    error: function(error) {
+      // Show if weather cannot be retreived
+    }
+  
+  });
+
+
